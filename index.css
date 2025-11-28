@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Verdana,sans-serif;
+    font-size : 1.4em ;
+    justify-items: center;
+    color: white;
+}
+.increment button{
+    background:none;
+    border: 2px solid #9AABD8;
+    color : #9AABD8;
+    font-family: 'Cursed Timer ULiL',sans-serif;
+}
+#new-game-btn{
+    color: white;
+    background:#BE123C;
+    font-family: Verdana, sans-serif;
+    font-size: 1em;
+    font-weight:bold;
+}
+.container {
+    width: 575px;
+    height: 385px;
+    background-color: #0C4A6E;
+    border-radius : 0 40px 0 40px ;
+    border : solid 4px #BE123C;
+    margin-top : 20px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    text-align:center; 
+
+    }
+.scores{
+    display:flex;
+    justify-content: space-around;
+
+}
+.scoreboard{
+    width: 155px;
+    height: 120px;
+    background-color : #080001;
+    border-radius: 5px;
+    
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 100px;
+    color: #F94F6D;
+    
+    display:flex;
+    justify-content: center;    
+    align-items: center;
+    padding-top : 20px;
+
+}
+.increment{
+    width:155px;
+    margin-top : 15px;
+    display:flex;
+    justify-content: space-around;
+    }
+    
+#single-home{
+    width: 45px;
+    height: 45px;
+    border-radius:5px;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#double-home{
+    width: 45px;
+    height: 45px;
+    border-radius:5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#triple-home{
+    width: 45px;
+    height: 45px;
+    border-radius:5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#single-guest{
+    width: 45px;
+    height: 45px;
+    border-radius:5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#double-guest{
+    width: 45px;
+    height: 45px;
+    border-radius:5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#triple-guest{
+    width: 45px;
+    height: 45px;
+    border-radius:5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
