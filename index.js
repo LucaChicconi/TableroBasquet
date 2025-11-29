@@ -2,7 +2,8 @@ let homeScore = document.getElementById("home")
 let guestScore = document.getElementById("guest")
 
 
-function increase(){
+function increase(event){
+    const targetId = event.target.id
     if(targetId === "single-home"){
         homeScore.textContent = parseInt(homeScore.textContent) +1
 
