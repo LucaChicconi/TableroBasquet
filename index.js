@@ -3,27 +3,27 @@ let guestScore = document.getElementById("guest")
 
 
 function increase(){
-    if(event.target.id === "single-home"){
+    if(targetId === "single-home"){
         homeScore.textContent = parseInt(homeScore.textContent) +1
 
     }
-    if(event.target.id === "single-guest"){
+    if(targetId === "single-guest"){
         guestScore.textContent= parseInt(guestScore.textContent) +1
 
     }
-    if(event.target.id === "double-home"){
+    if(targetId === "double-home"){
         homeScore.textContent = parseInt(homeScore.textContent) +2
 
     }
-    if(event.target.id === "double-guest"){
+    if(targetId === "double-guest"){
         guestScore.textContent= parseInt(guestScore.textContent) +2
 
     }
-    if(event.target.id === "triple-home"){
+    if(targetId === "triple-home"){
         homeScore.textContent = parseInt(homeScore.textContent) +3
 
     }
-    if(event.target.id === "triple-guest"){
+    if(targetId === "triple-guest"){
         guestScore.textContent= parseInt(guestScore.textContent) +3
 
     }
