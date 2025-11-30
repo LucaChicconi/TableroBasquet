@@ -9,7 +9,7 @@ document.getElementById("single-guest").addEventListener("click", () => updateSc
 document.getElementById("double-guest").addEventListener("click", () => updateScore("double-guest"))
 document.getElementById("triple-home").addEventListener("click", () => updateScore("triple-home"))
 document.getElementById("triple-guest").addEventListener("click", () => updateScore("triple-guest"))
-document.getElementById("new-game").addEventListener("click", newGame)
+document.getElementById("new-game").addEventListener("click",() => newGame())
 
 function updateScore(id){
   if(id === "single-home"){
